@@ -4,7 +4,7 @@
 # feature branch 
 
 1. use checkout to switch between branches
-git checkout -b <feature branch name>
+$ git checkout -b <feature branch name>
 -b is to for creating new branch 
 
 2. modify readme file 
@@ -20,6 +20,6 @@ git checkout main all those changes will not be visible since its made on featur
 
  6 hit git push 
  it will prompt  you the right command 
- git push --set-upstream origin feature branch name
+ $git push --set-upstream origin feature branch name
  
 
