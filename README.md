@@ -23,3 +23,6 @@ git checkout main all those changes will not be visible since its made on featur
  $git push --set-upstream origin feature branch name
  
 
+7 . deleting a feature branch 
+git branch -d feature branch name #locally
+git push origin --delete feature branch name # for deleting remotly.
